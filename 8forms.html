@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body style="background-color:pink;border:5px,red">
+ <h3>School Forms</h3>
+ <p>About Yourself</p>
+ <form>
+ 	<label for="name">Enter your Name : </label>
+ 	<input type="text" name="name" placeholder="Jhon Doe" required="required">
+ 	<br>
+ 	<br>
+ 	<label for="rollno">Enter your roll no : </label>
+	<input type="number" name="rollno" id="rollno" placeholder="169" required="required">
+	<br>
+	<br>
+	<label for="mail">Enter your email-id : </label>
+	<input type="email" name="mail" id="mail" placeholder="abc@gmail.com" required="required">
+	<br>
+	<br>
+	<label for="dob">Enter your Date of Birth : </label>
+	<input type="date" name="dob" id="dob" required="required">
+	<br>
+	<br>
+	<label for="resume">Upload your resume : </label>
+	<input type="file" name="resume" id="resume" accept=".pdf" required="required">
+	<br>
+	<p>Choose your semester : </p>
+	<input type="radio" name="semester" id="second" value="Second" required="required">
+	<label for="second">Second</label>
+	<input type="radio" name="semester" id="fourth" value="Fourth" required="required">
+	<label for="fourth">Fourth</label>
+	<input type="radio" name="semester" id="fourth" value="Fourth" required="required">
+	<label for="fourth">Sixth</label>
+	<input type="radio" name="semester" id="fourth" value="Fourth" required="required">
+	<label for="fourth">Eight</label>
+	<br>
+	<br>
+	<p>Enter your skills :</p>
+	<input type="checkbox" name="skills" id="python" value="Python">
+	<label for="python">Python</label>
+	<input type="checkbox" name="skills" id="cpp" value="C++" >
+	<label for="cpp">C++</label>
+	<input type="checkbox" name="skills" id="java" value="Java">
+	<label for="java">Java</label>
+	<br>
+	<br>
+	<label for="skill-level">Select your skill level : </label>
+	<br>
+	<input type="range" name="skill-level" id="skill-level" min="0" max="5" required="required">
+	<br>
+    <br>
+	<select name="mother-tongue" id="mother-tongue" required="required" value="">
+		<option value="Hindi">Hindi</option> 
+		<option value="Bengali">Bangla</option> 
+		<option value="English">English</option> 
+	</select>
+
+	<br>
+	<br>
+	<label for="intro">Tell me about yourself ? </label>
+	<br>
+	<br>
+	<textarea name="intro" id="intro" cols="50" rows="5" placeholder="My self Rajib santra . Stay in Jhargram . Pin code - 721504" required="required"></textarea>
+	<br>
+	<br>
+     <input type="submit" name="submit" id="submit" value="Save">
+     <br>
+     <br>
+	<input type="reset" name="reset" id="reset" value="Clear">
+	<br>
+	<br>
+	 <label for="password">Enter your PassWord</label>
+	 <br>
+	 <br>
+	<input type="password" name="password" id="password"placeholder="254521">
+ </form>
+</body>
+</html>
